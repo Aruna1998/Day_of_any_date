@@ -66,16 +66,16 @@ int rem=(sum%7);
 if(rem==0)
 printf("Saturday ");
 else if(rem==1)
-printf("Sunday");
+printf("Sundayyyyy");
 else if(rem==2)
-printf("Monday");
+printf("Mondayyyyyy");
 else if(rem==3)
-printf("Tuesday");
+printf("Tuesdayyyyyyyyyy");
 else if(rem==4)
-printf("Wednesday");
+printf("Wednesdayyyy");
 else if(rem==5)
-printf("Thursday ");
+printf("Thursdayyyyy ");
 else if(rem==6)
-printf("Friday");
+printf("Fridayyyy");
 }
 

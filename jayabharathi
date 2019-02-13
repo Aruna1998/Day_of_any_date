@@ -36,46 +36,5 @@ else if(mm==11)
 monthcode=4;
 else 
 monthcode=6;
-//to find century code
-int centurycode;
-if(yy>1699&&yy<=1799)
-centurycode=0;
-else if(yy>1799&&yy<=1899)
-centurycode=2;
-else if(yy>1899&&yy<=1999)
-centurycode=0;
-else if(yy>1999&&yy<=2999)
-centurycode=6;
-int sum=0;
-//to check if it is leap year or not
-if(yy%4==0){
-    if(yy%100==0){
-        if(yy%400==0)
-        sum=(yearcode-monthcode+centurycode-a)-1;
-        else
-        sum=(yearcode+monthcode+centurycode+a);
-    }
-     else
-    sum=(yearcode+monthcode+centurycode+a)-1;
+printf("%d",monthcode);
 }
-else
-sum=(yearcode+monthcode+centurycode+a);
-printf("The date %d:%d:%d which you entered is : ",dd,mm,yy);
-//to calculate day;
-int rem=(sum%7);
-if(rem==0)
-printf("Saturday ");
-else if(rem==1)
-printf("Sundayyyyy");
-else if(rem==2)
-printf("Mondayyyyyy");
-else if(rem==3)
-printf("Tuesdayyyyyyyyyy");
-else if(rem==4)
-printf("Wednesdayyyy");
-else if(rem==5)
-printf("Thursdayyyyy ");
-else if(rem==6)
-printf("Fridayyyy");
-}
-

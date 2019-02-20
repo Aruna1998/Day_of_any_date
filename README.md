@@ -1,3 +1,1 @@
-# Day_of_any_date
-This program is used to calculate the day of the week for any date between year 1700 to 3000  quickly and precisely
-This is the project which i have done for KPIT COE(try to make commit in KPIT internship)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5d8a97be0b814716a6a5cf01326aa903)](https://www.codacy.com/app/Aruna1998/Day_of_any_date?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Aruna1998/Day_of_any_date&amp;utm_campaign=Badge_Grade)
